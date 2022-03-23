@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #353535;
+}
+
+
+div.hero{
+    background-image: url(img/encabezado-1.jpeg);
+    height: 100vh;
+    background-position: top center;
+    background-size: cover;
+}
+div.header-content{
+    
+    padding: 30px;
+    
+}
+
+nav.social-media{
+    text-align: center;
+    font-size: larger;
+}
+
+nav.socail-media a{
+    color: rgb(245, 248, 250);
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+h1{
+    color: white;
+    text-shadow: 0 0 30px white;
+    font-size: 11vh;
+    text-transform: uppercase;
+}
+p.slogan{
+    color: rgb(168, 14, 14);
+}
+div.information div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+p.city,p.date{
+    color: red;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+p.city i,p.date i{
+    color: red;
+    font-size: 30px;
+}
+.nav-bar{
+    background-color: #353535;
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav.menu a{
+    font-family: 'oswald', sans-serif;
+    color: #ffffff;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+
+div.contact {
+    background-color: #353535;
+
+}
+
+nav.contact-menu{
+    font-family: 'oswald', sans-serif;
+    color: #ffffff;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 10px;
+    text-align: center;
+    margin: 0 10px 0 0;
+    flex-direction: column;
+}
+
+ol.projects li{
+    margin: 0 10px 0 0;
+    background-color: #353535;
+    padding: 10px 10px;
+    font-size: 1.3em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
